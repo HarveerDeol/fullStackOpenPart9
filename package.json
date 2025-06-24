@@ -1,0 +1,21 @@
+{
+  "name": "fsopart9",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/HarveerDeol/fullStackOpenPart9#readme",
+  "bugs": {
+    "url": "https://github.com/HarveerDeol/fullStackOpenPart9/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HarveerDeol/fullStackOpenPart9.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "ts-node": "ts-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
