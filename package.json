@@ -17,5 +17,12 @@
   "scripts": {
     "ts-node": "ts-node",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/jest": "^30.0.0",
+    "@types/lodash": "^4.17.18",
+    "@types/mongoose": "^5.11.96",
+    "@types/react": "^19.1.8"
   }
 }
