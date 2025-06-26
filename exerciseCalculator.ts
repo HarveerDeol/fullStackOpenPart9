@@ -1,5 +1,3 @@
-
-
 export type ExerciseResult = {
     periodLength: number;
     trainingDays: number;
