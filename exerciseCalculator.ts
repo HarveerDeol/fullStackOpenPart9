@@ -1,6 +1,6 @@
 
 
-type ExerciseResult = {
+export type ExerciseResult = {
     periodLength: number;
     trainingDays: number;
     success: boolean;
@@ -10,7 +10,7 @@ type ExerciseResult = {
     average: number;
   };
   
-  const  calculateExercises = (week: number[], target: number): ExerciseResult => {
+export  const  calculateExercises = (week: number[], target: number): ExerciseResult => {
     const periodLength = week.length;
     const trainingDays = week.filter(d => d > 0).length;
     const average = week.reduce((sum, d) => sum + d, 0) / periodLength;
@@ -49,3 +49,5 @@ calculateExercises(week, target);
 
 
 export default { calculateExercises };
+
+
